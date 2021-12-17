@@ -1,7 +1,7 @@
 import * as express from "express";
 import { Request, Response, NextFunction } from "express";
 import catsRouter from "./cats/cats.route";
-
+ 
 class Server {
   public app: express.Application;
   constructor() {
