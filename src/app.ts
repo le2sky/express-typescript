@@ -13,7 +13,7 @@ class Server {
     //* Router 등록
     this.app.use(catsRouter);
   }
-
+ 
   private setMiddleware() {
     //* logging middleware
     this.app.use((req: Request, res: Response, next: NextFunction) => {
